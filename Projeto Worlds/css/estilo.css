@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,500&display=swap');/* componentes html */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Montserrat:ital,wght@0,600;0,900;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    overflow-x: hidden;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-cabecalho{
+    background: url(../imagens/fundoTopo.png);
+    width: 100%;
+}
+
+body {
+    background: url(../imagens/torreTransparente.png), 
+    linear-gradient(to bottom, white, #4EF2E7) no-repeat;
+    background-size: cover;
+}
+
+/* conteudo */
+#conteudo {
+    height: 100%;
+     font-weight: 800;
+     color: white;
+}
+
+/* conteudo 2*/
+#conteudo-2 {
+    background: #26264C ;
+    padding: 20px 0px;
+}
+.card {
+    border: 2px solid #4EF2E7;   
+    margin: 10px 0px;
+    box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.5);
+    
+}
+
+.h5, h5 {
+    font-size: 2em;
+}
+.titulo-conteudo-2{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.btn-conteudo-2{
+    width: 100%;
+    box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.5);
+
+}
+
+.btn-conteudo-2:active{
+    background-color: #3DBFB7;
+    font-size: 1.2em;
+}
+
+.texto-azul-claro-bg-azul-escuro{
+    background-color: #4EF2E7;
+    color: #26264C;
+}
+
+
+/* textos*/
+.cor-azul-claro{
+    color: #51DAFC;
+    text-decoration: underline;
+}
+
+
+.barra-divisora {
+    background-color: #4E4EF2;
+    width: 1px;
+    height: 2em;
+    margin-top: 5px;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: #517FFC;
+    transition: 0.5s;
+
+}
+
+nav .navbar-nav .nav-item .nav-link:hover{
+    color: #51DAFC;
+    font-size: 1.3em;
+    transition: 0.5s;
+
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: 2px solid #4E4EF2;
+}
+
+/* imagens */
+
+
+/* media queries */
+@media (max-width: 576px) { 
+    body {
+        background-position: 60%;
+    }
+    #conteudo .container .row h1 {
+        font-size: 2.1em;
+    }
+    .medida-botao{
+        font-size: 0.5em;
+        width: 30%;
+    }
+    
+    #logo-site img {
+        width: 200px;
+    }
+  
+    .titulo-conteudo-2{
+        font-size: 1.2em;
+        
+    }
+    .caixa-cadastro h1 {
+        font-size: 1.2em;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    
+    .caixa-local  {
+    height: 130px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) { 
+    body {
+        background-position: 60%;
+    }
+    #conteudo .container .row h1 {
+        font-size: 2em;
+    }
+    .medida-botao{
+        font-size: 0.7em;
+        width: 35%;
+    }
+    #logo-site img {
+        width: 200px;
+    }
+    .titulo-conteudo-2{
+        font-size: 1.25em;
+        
+    }
+    .caixa-cadastro h1 {
+        font-size: 1.4em;
+        padding: 20px 0px;
+        text-align: center;
+    }
+        
+    .caixa-local  {
+        height: 130px;
+        }
+
+ }
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) { 
+    body {
+        background-position: 50%;
+    }
+    #conteudo .container .row h1 {
+        font-size: 2.9em;
+    }
+    .medida-botao{
+        font-size: 0.9em;
+        width: 35%;
+    }
+    #logo-site img {
+        width: 220px;
+    }
+    .titulo-conteudo-2{
+        font-size: 1.65em;
+        
+    }
+    footer .row .col-4 i{
+        padding: 0 10px;
+        font-size: 30px;
+    }
+    .planetinha img{
+        width: 250px;
+        height: 200px;
+        margin: -60px 0px 0px -70px;
+    }
+
+    .caixa-cadastro h1 {
+        font-size: 1.5em;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .planetinhas-login {
+        width: 230px;
+        height: 230px;
+        margin: 100px 0px;
+    }
+    
+    .caixa-local  {
+    height: 150px;
+    width: 180px;
+    margin-top: 20px;
+    }
+
+    #conteudo-paris .paris h1 {
+        font-size: 4em;
+    }
+
+    #conteudo-paris .paris p {
+        font-size: 1.2em;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) { 
+    body {
+        background-position: 60%;
+    }
+    #conteudo .container .row h1 {
+        font-size: 3.3em;
+    }
+    .medida-botao{
+        font-size: 1.2em;
+        width: 30%;
+    }
+    .titulo-conteudo-2{
+        font-size: 2.2em;
+        
+    }
+    footer .row .col-4 i{
+        padding: 0 10px;
+        font-size: 50px;
+    }
+    .planetinha img{
+        width: 320px;
+        height: 270px;
+        margin: -70px 0px 0px -80px;
+    }
+    .caixa-cadastro h1 {
+        font-size: 2em;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .planetinhas-login {
+        width: 300px;
+        height: 300px;
+    }
+
+        
+    .caixa-local  {
+        height: 180px;
+        width: 230px;
+    }
+
+    #conteudo-paris .paris h1 {
+        font-size: 10em;
+    }
+
+    #conteudo-paris .paris p {
+        font-size: 1.3em;
+    }
+        
+ }
+
+
+/* X-Large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) { 
+    #conteudo .container .row h1 {
+        font-size: 4em;
+    }
+    .medida-botao{
+        font-size: 1.2em;
+        width: 30%;
+    }
+
+    .titulo-conteudo-2{
+        font-size: 2.7em;
+        
+    }
+    .planetinhas-login {
+        width: 350px;
+        height: 350px;
+    }
+
+    .caixa-local  {
+        height: 200px;
+        width: 280px;
+    }
+    #conteudo-paris .paris h1 {
+        font-size: 11em;
+    }
+
+    #conteudo-paris .paris p {
+        font-size: 1.5em;
+    }
+    
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)  */
+@media (min-width: 1400px) { 
+    #conteudo .container .row h1 {
+        font-size: 4.6em;
+    }
+
+    .medida-botao{
+        font-size: 1.2em;
+        width: 30%;
+    }
+
+
+    .caixa-cadastro h1 {
+        font-size: 2.5em;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .planetinhas-login {
+        width: 400px;
+        height: 400px;
+    }
+
+
+        
+
+ }
+
+
+
+ /* conteudo */
+.btn-oferta {
+    border-radius: 20px;
+}
+
+ .btn-customizado {
+    background-color: #517FFC;
+    color: white;
+ }
+
+
+.btn-customizado:hover {
+    color: white;
+    background-color: #51DAFC;
+    transition: 0.5s;
+}
+
+.btn-customizado:active {
+    color: white;
+    background-color: #4D737D;
+    transition: 0.5s;
+    font-size: 0.9em;
+}
+
+.btn-customizado2{
+    border: 1px solid #51DAFC ;
+    color: #51DAFC;
+    transition: 0.5s;
+
+
+}
+
+.btn-customizado2:hover{
+    border: 1px solid white ;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-customizado2:active{
+    border: 1px solid #A3A3A3 ;
+    color: #A3A3A3;
+    transition: 0.5s;
+
+    font-size: 0.9em;
+
+}
+
+
+/* promocao */
+
+#promocao {
+    background-color: rgba(72,107,255,0.3);
+}
+
+#promocao .container .row .col-7 img {
+    transform: rotate(5deg);
+    filter: drop-shadow(10px 15px 20px black);
+}
+
+#promocao .container .row .col-5{
+    padding: 20px 0px 20px 5px;
+    text-align: center;
+    color: white;
+    
+
+}
+
+
+#promocao .container .row .col-5 #promocao-textos{
+    border: 1px dotted white;
+    padding: 0 0 10px 0;
+    background-color: #26264C;
+    color: white;
+    box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.5);
+}
+
+#promocao .container .row .col-5 #promocao-textos h1{
+    background-color: white;
+    color: #26264C;
+}
+
+#promocao .container .row .col-5 #promocao-textos button:active {
+    font-size: 1.2em;
+    background-color: #A3A3A3;
+}
+/* footer */
+
+footer {
+    background-color: #26264C;
+    position: relative;
+    padding: 50px 0px;
+}
+footer .row {
+    padding: 15px 0px 0px 0px;
+}
+
+footer .row .col-4 h6 {
+    color: #517FFC;
+}
+
+footer .row .col-4 ul li a {
+    color: #51DAFC;
+    transition: 0.3s;
+
+}
+
+footer .row .col-4 ul li a:hover {
+    color: white;
+    font-size: 1.5em;
+    transition: 0.3s;
+
+}
+
+
+.icone-rede-social {
+    color: white;
+    animation: github .5s ease-in-out infinite alternate;
+}
+
+.icone-rede-social-2 {
+    color: white;
+    animation: instagram .5s ease-in-out infinite alternate;
+}
+
+.icone-rede-social-3 {
+    color: white;
+    animation: linkedin .5s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes github {
+    0% {
+        text-shadow: 0 0 10px #553A78, 0 0 20px #842DF7, 0 0 30px #AF77F9;
+    }
+
+    100%{
+        text-shadow: 0 0 5px #553A78, 0 0 10px #842DF7, 0 0 15px #AF77F9;
+    }
+}
+
+@keyframes instagram {
+    0% {
+        text-shadow: 0 0 10px #7A0037, 0 0 20px #F7006F, 0 0 30px #F94B99;
+    }
+
+    100%{
+        text-shadow: 0 0 5px #7A0037, 0 0 10px #F7006F, 0 0 15px #F94B99;
+    }
+}
+
+@keyframes linkedin {
+    0% {
+        text-shadow: 0 0 10px #3B6178, 0 0 20px #2FAEF7, 0 0 30px #7ACAF9;
+    }
+
+    100%{
+        text-shadow: 0 0 5px #3B6178, 0 0 10px #2FAEF7, 0 0 15px #7ACAF9;
+    }
+}
+
+
+/* ---------------------------- Pagina de cadastro ----------------------------- */
+#conteudo-cadastro{
+    height: 130%;
+    background: linear-gradient(to bottom, #26264C, #2FAEF7,#7ACAF9  );
+}
+
+.caixa-cadastro {
+    background: white;
+    border-radius: 30px;
+    border: 1px solid #26264C;
+}
+.caixa-cadastro h1 { 
+    color: #26264C;
+    font-weight: 500;
+
+}
+.botao-cadastro-login:active {
+    background-color: #26264C;
+    font-size: 0.8em;
+    
+}   
+/* ------------------------- Página de login ----------------------------- */
+
+#conteudo-login {
+    height: 110%;
+    background:  linear-gradient(to right, #26264C, #2FAEF7 )
+}
+
+.area-login {
+    margin-top: 20px;
+    background-color: white;
+    height: 90%;
+    border-radius: 50px;
+    border: 1px solid #26264C;
+    padding: 80px;
+}
+
+#conteudo-login .area-login h1 {
+    text-align: center;
+}
+
+/* --------------------- Paris ------------------------------- */
+#conteudo-paris {
+    height: 100%;
+
+}
+.efeito-vidro{ 
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.paris h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+.paris p {
+    color: white;
+    text-align: center;
+}
+
+
+.caixa-efeito{
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    transition: all ease 0.5s;
+    border-radius: 40px;
+    box-shadow: 5px 5px 29px 5px #000000;
+}
+
+.caixa-efeito:hover {
+    margin-top: -10px;
+    font-size: 3em;
+    transition: all ease 0.5s;
+    color: white;
+    text-shadow: 0px 0px 16px rgba(152, 150, 150, 1);
+}
+
+.culinaria {
+    background: url(../imagens/francaculinaria.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.artistas {
+    background: url(../imagens/jacquin.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.locais-famosos {
+    background: url(../imagens/torreEiffel.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.outros-locais {
+    background: url(../imagens/parisLocais.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.botao-passagem:active{
+    background-color: #26264C;
+    font-size: 1.2em;
+}
+
