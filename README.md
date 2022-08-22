@@ -19,9 +19,9 @@ Na página principal, nós temos a tag header com a barra de navegação respons
 <h2> Pagina principal vista por um dispositivo menor </h2>
 
 <div align= center>
-  <img src="https://user-images.githubusercontent.com/87538302/185818962-c6f5563b-fedf-4f1e-a9f0-81090420e256.jpeg" width=500px>
-   <img src="https://user-images.githubusercontent.com/87538302/185818961-e81f5a80-3fa6-4809-8fe3-8c4cb4951400.jpeg" width=500px>
-  <img src="https://user-images.githubusercontent.com/87538302/185818960-2dc8c2ba-1ed4-4488-9599-6b0e55755d60.jpeg" width=500px>
+  <img src="https://user-images.githubusercontent.com/87538302/185818962-c6f5563b-fedf-4f1e-a9f0-81090420e256.jpeg" width=300px>
+   <img src="https://user-images.githubusercontent.com/87538302/185818961-e81f5a80-3fa6-4809-8fe3-8c4cb4951400.jpeg" width=300px>
+  <img src="https://user-images.githubusercontent.com/87538302/185818960-2dc8c2ba-1ed4-4488-9599-6b0e55755d60.jpeg" width=300px>
 </div>
 
 <hr>
